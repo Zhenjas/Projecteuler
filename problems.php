@@ -1,24 +1,23 @@
-Problem 1
----------------
+//Problem 1
+//---------------
 <?php
 
-$temp = 0;
+$res = 0;
 for($i=1;$i<1000;$i++){
 	if(($i % 3 == 0) || ($i % 5 == 0)){
-		$temp += $i;
+		$res += $i;
 	}
 }
 
-echo $temp;
+echo $res;
 ?>
 
-Problem 2
----------------
+//Problem 2
+//---------------
 <?php
 
 $x=0;    
 $y=1; 
-$i=0;
 $countEvenNums = 0;
 while(true)    
 {    	
@@ -29,13 +28,11 @@ while(true)
     }
 	
     if($z > 3000000){
-	echo $countEvenNums;
-	break;
+		echo $countEvenNums;
+		break;
     }
 	
     $x=$y;       
     $y=$z;
-	
-    $i++;
 } 
 ?>
