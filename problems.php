@@ -1,6 +1,6 @@
 <?php
 
-Class projectEuler
+Class ProjectEuler
 {
     const UPPER_LIMIT_ONE = 1000;
     const UPPER_LIMIT_TWO = 3000000;
@@ -41,7 +41,7 @@ Class projectEuler
     }
 }
 
-$pe = new projectEuler();
+$pe = new ProjectEuler();
 
 echo "Answer for problem 1 = " . $pe->problemOne() . "\n";
 echo "Answer for problem 2 = " . $pe->problemTwo();
